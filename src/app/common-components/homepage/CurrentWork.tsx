@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Code2, Brain, Sparkles, BookOpen, Divide } from 'lucide-react'
+import { Code2, Brain, Sparkles, BookOpen, Divide, FileCode } from 'lucide-react'
 import { StackVertical } from '@/common-components/layout-stack/layout-stack'
 import Text from '@/common-components/text/text'
 import TextHeading from '../text-heading/text-heading'
@@ -44,21 +44,21 @@ export function CurrentWork() {
     const items = [
         {
             icon: <Brain className="w-4 h-4" />,
-            text: "Gaining a deeper understanding of traditional ML"
+            text: "Gaining a deeper understanding of IAM and access management practices."
         },
         {
-            icon: <Divide className="w-4 h-4" />,
-            text: "Learning math for ML"
+            icon: <FileCode className="w-4 h-4" />,
+            text: "Learning scripting languages like Python, Powershell and Bash for automation."
         },
         {
             icon: <Sparkles className="w-4 h-4" />,
-            text: "Exploring AI/ML research papers"
+            text: "Exploring the Future of Cybersecurity"
         },
         {
             icon: <BookOpen className="w-4 h-4" />,
             text: "Reading ",
             hyperlink: "/notes/books",
-            hyperlinkText: "ML Books",
+            hyperlinkText: "Books",
             endText: ""
         }
     ]
@@ -70,7 +70,7 @@ export function CurrentWork() {
             transition={{ delay: 1, duration: 0.5 }}
         >
             <StackVertical gap="none">
-                <TextHeading as="h2">Current Ongoings</TextHeading>
+                <TextHeading as="h2">Current Projects</TextHeading>
                 <StackVertical gap="md">
                     {items.map((item, index) => (
                         <WorkItem 

@@ -33,7 +33,7 @@ export function HeroSection() {
                         }}
                         className={cn("text-2xl sm:text-3xl md:text-4xl", monoFont.className)}
                     >
-                        👾
+                        🦇
                     </motion.div>
 
                     {/* Name and title with staggered fade-in */}
@@ -44,7 +44,7 @@ export function HeroSection() {
                         className="relative"
                     >
                         <TextHeading as="h1" className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-                            sumit.ml
+                            kush patel
                         </TextHeading>
                     </motion.div>
 
@@ -55,7 +55,7 @@ export function HeroSection() {
                         transition={{ delay: 0.4 }}
                     >
                         <Text >
-                            Hi! I am Sumit.
+                            Hi! I am Kush.
                         </Text>
 
                         <Ruler color='colorless' marginTop='sm' marginBottom='none'/>
@@ -66,7 +66,7 @@ export function HeroSection() {
                             transition={{ delay: 0.5 }}
                         >
                             <Text>
-                                I'm a swe based in Tokyo. I love coffee, machine learning, math, and among others. Glad to have you here! Feel free to look around :)
+                                I'm studying cyber security. I love watching movies, enjoying life, learning new things... :)
                             </Text>
                             <Ruler color='colorless' marginTop='sm' marginBottom='none'/>
                         </motion.div>
@@ -77,14 +77,14 @@ export function HeroSection() {
                             transition={{ delay: 0.6 }}
                         >
                                 <Text>
-                                    This is my graph of thoughts, notes, and ideas.
+                                    This is my portfolio website showcasing my thoughts and ideas.
                                 </Text>
 
                                 <Ruler color='colorless' marginTop='sm' marginBottom='none'/>
 
                                 <Text>
-                                    I ramble about things on my{' '}
-                                    <Link href="/blog" className="text-purple-500 font-bold hover:underline">
+                                    Feel free to check out my{' '}
+                                    <Link href="/blog" className="text-red-500 font-bold hover:underline">
                                         blog
                                     </Link>
                                     ; you can check it out if you're interested.
@@ -93,7 +93,7 @@ export function HeroSection() {
                                 <Ruler color='colorless' marginTop='sm' marginBottom='none'/>
 
                                 <Text>
-                                    I also document my learnings through learning reflections every week. You can take a look at those{' '}
+                                    I also document my weekly learnings. You can take a look at those{' '}
                                     <Link href="/learning" className="text-purple-500 font-bold hover:underline">
                                         here
                                     </Link>
@@ -116,7 +116,7 @@ export function HeroSection() {
                     <Image
                         className="object-cover"
                         fill
-                        src="/gion-town.png" 
+                        src="/hiking-trip.png" 
                         alt="Gion Town"
                         priority
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 80vw"

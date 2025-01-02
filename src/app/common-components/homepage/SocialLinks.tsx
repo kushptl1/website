@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { Github, Twitter, Mail } from 'lucide-react'
+import { Github, Twitter, Mail, Linkedin } from 'lucide-react'
 import { cn } from '@/styles/lib/utils'
 import { monoFont } from '@/styles/fonts/fonts'
 import { StackVertical } from '@/common-components/layout-stack/layout-stack'
@@ -44,17 +44,17 @@ function SocialLink({ href, icon, label, delay }: SocialLinkProps) {
 export function SocialLinks() {
     const links = [
         {
-            href: "https://github.com/sumitdotml",
+            href: "https://github.com/kushptl1",
             icon: <Github className="w-4 h-4" />,
             label: "github"
         },
         {
-            href: "https://x.com/sumitdotml",
-            icon: <Twitter className="w-4 h-4" />,
-            label: "twitter"
+            href: "https://www.linkedin.com/in/kusptl/",
+            icon: <Linkedin className="w-4 h-4" />,
+            label: "Linkedin"
         },
         {
-            href: "mailto:sumit@sumit.ml",
+            href: "mailto:kushp1@umbc.edu",
             icon: <Mail className="w-4 h-4" />,
             label: "email"
         }
