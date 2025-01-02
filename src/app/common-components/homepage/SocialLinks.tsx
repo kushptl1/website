@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { Github, Twitter, Mail, Linkedin } from 'lucide-react'
+import { Github, Mail, Linkedin } from 'lucide-react'
 import { cn } from '@/styles/lib/utils'
 import { monoFont } from '@/styles/fonts/fonts'
 import { StackVertical } from '@/common-components/layout-stack/layout-stack'
@@ -26,7 +26,7 @@ function SocialLink({ href, icon, label, delay }: SocialLinkProps) {
                 className={cn(
                     "flex items-center gap-2 group",
                     "text-sm text-muted-foreground",
-                    "hover:text-purple-500 transition-colors"
+                    "hover:text-red-500 transition-colors"
                 )}
             >
                 <motion.div

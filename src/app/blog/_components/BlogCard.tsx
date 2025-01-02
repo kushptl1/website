@@ -22,7 +22,7 @@ export function BlogCard({ post, isLast }: { post: BlogPost; isLast?: boolean })
                             as="h4" 
                             weight="medium" 
                             className={cn(
-                                "group-hover:text-purple-500 transition-colors duration-300"
+                                "group-hover:text-red-500 transition-colors duration-300"
                             )}
                         >
                             {post.title}

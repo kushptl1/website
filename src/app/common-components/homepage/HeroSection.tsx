@@ -44,7 +44,7 @@ export function HeroSection() {
                         className="relative"
                     >
                         <TextHeading as="h1" className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-                            kush patel
+                            Kush Patel
                         </TextHeading>
                     </motion.div>
 
@@ -66,7 +66,7 @@ export function HeroSection() {
                             transition={{ delay: 0.5 }}
                         >
                             <Text>
-                                I'm studying cyber security. I love watching movies, enjoying life, learning new things... :)
+                                I am studying cyber security. I enjoy watching movies, embracing life, and learning new things.
                             </Text>
                             <Ruler color='colorless' marginTop='sm' marginBottom='none'/>
                         </motion.div>
@@ -94,7 +94,7 @@ export function HeroSection() {
 
                                 <Text>
                                     I also document my weekly learnings. You can take a look at those{' '}
-                                    <Link href="/learning" className="text-purple-500 font-bold hover:underline">
+                                    <Link href="/learning" className="text-red-500 font-bold hover:underline">
                                         here
                                     </Link>
                                     .
@@ -112,12 +112,12 @@ export function HeroSection() {
                 transition={{ delay: 0.7 }}
                 className="mt-8 -mb-8"
             >
-                <div className="relative w-full aspect-[4/3] sm:aspect-[2/1] md:aspect-[21/9] rounded-lg overflow-hidden">
+                <div className="relative w-full aspect-video rounded-lg overflow-hidden">
                     <Image
                         className="object-cover"
                         fill
                         src="/hiking-trip.png" 
-                        alt="Gion Town"
+                        alt="Hiking trip"
                         priority
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 80vw"
                     />

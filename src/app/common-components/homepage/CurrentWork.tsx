@@ -22,13 +22,13 @@ function WorkItem({ icon, text, delay, hyperlink, hyperlinkText, endText }: Work
             transition={{ delay, duration: 0.5 }}
             className="flex items-center gap-3"
         >
-            <div className="text-purple-500">
+            <div className="text-red-500">
                 {icon}
             </div>
             <Text variant="muted" size="sm">
                 {text}
                 {hyperlink && hyperlinkText && (
-                    <Link href={hyperlink} className="text-purple-500 hover:underline">
+                    <Link href={hyperlink} className="text-red-500 hover:underline">
                         {hyperlinkText}
                     </Link>
                 )}
@@ -70,7 +70,7 @@ export function CurrentWork() {
             transition={{ delay: 1, duration: 0.5 }}
         >
             <StackVertical gap="none">
-                <TextHeading as="h2">Current Projects</TextHeading>
+                <TextHeading as="h2">Active Ventures</TextHeading>
                 <StackVertical gap="md">
                     {items.map((item, index) => (
                         <WorkItem 

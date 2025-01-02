@@ -18,7 +18,7 @@ export default function References() {
                     </StackVertical>
                 </StackVertical>
             </BaseContainer>
-            <SectionFooter color="purple" showToTop={false} />
+            <SectionFooter color="red" showToTop={false} />
         </>
     )
 }
