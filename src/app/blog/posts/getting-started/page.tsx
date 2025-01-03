@@ -15,7 +15,7 @@ import Link from "next/link"
 import { SECTION_IDS } from "./section-ids"
 import { ThemeToggle } from "@/components/ui/theme-toggle"
 
-export default function GettingStartedWithMLPost() {
+export default function GettingStarted() {
   return (
     <>
       <BaseContainer size="md" paddingX="md" paddingY="lg">

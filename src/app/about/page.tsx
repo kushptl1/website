@@ -16,7 +16,7 @@ export default function About() {
                 <div className="flex items-center justify-between">
                     <DynamicBreadcrumb 
                         items={[
-                            { href: '/', label: 'Home', emoji: '👾' },
+                            { href: '/', label: 'Home', emoji: '🦇' },
                             { label: 'About' }
                         ]}
                     />
@@ -28,7 +28,7 @@ export default function About() {
                 <TextHeading as="h1" weight="bold">
                     About
                 </TextHeading>
-					<Text variant="muted" size="xs" className="mb-8">Last updated: December 30, 2024</Text>
+					<Text variant="muted" size="xs" className="mb-8">Last updated: Jan 3, 2025</Text>
                 <StackVertical gap="md">
                     <Text>
                     Hi! I am Kush. I am studying Cybersecurity.
@@ -43,7 +43,7 @@ export default function About() {
                 </StackVertical>
             </div>
             </StackVertical>
-            <SectionFooter color="purple" />
+            <SectionFooter color="red" />
         </BaseContainer>
     )
 }

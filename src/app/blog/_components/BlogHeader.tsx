@@ -7,7 +7,7 @@ import { ThemeToggle } from "@/styles/components/ui/theme-toggle"
 export function BlogHeader() {
     return (
         <StackVertical gap="md">
-            <title>Blog | sumit.ml</title>
+            <title>Blog | Kush Patel</title>
 
             {/* Breadcrumb */}
             <div className="flex items-center justify-between">

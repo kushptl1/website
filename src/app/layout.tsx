@@ -5,8 +5,8 @@ import { cn } from '@/styles/lib/utils'
 import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
-  title: 'sumit.ml',
-  description: 'a site where I document my ML learning journey & share my thoughts',
+  title: 'Kush Patel - Portfolio',
+  description: 'a site where I document my projects',
 }
 
 export default function RootLayout({

@@ -17,7 +17,7 @@ interface BaseFooterProps {
 }
 
 export function BaseFooter({ 
-    color = 'purple', 
+    color = 'red', 
     navigationLinks, 
     className,
     showToTop = true,
@@ -35,7 +35,7 @@ export function BaseFooter({
         <footer className={cn("mt-auto pt-12", className)}>
             {/* Super subtle gradient line */}
             <div className="relative w-full mb-8">
-                <div className="absolute inset-0 w-full h-[1px] bg-gradient-to-r from-transparent via-purple-400/20 to-transparent" />
+                <div className="absolute inset-0 w-full h-[1px] bg-gradient-to-r from-transparent via-red-400/20 to-transparent" />
             </div>
 
             <div className={cn(
@@ -73,11 +73,11 @@ export function BaseFooter({
                                             href={link.href}
                                             target={link.href.startsWith('mailto:') ? undefined : '_blank'}
                                             className={cn(
-                                                "block text-purple-400/80 hover:text-purple-400",
+                                                "block text-red-400/80 hover:text-red-400",
                                                 "transition-all duration-200",
                                                 "-m-2 p-2",
-                                                "hover:bg-purple-400/10 rounded-md",
-                                                "hover:shadow-md hover:shadow-purple-500/5"
+                                                "hover:bg-red-400/10 rounded-md",
+                                                "hover:shadow-md hover:shadow-red-500/5"
                                             )}
                                         >
                                             {link.icon}
@@ -90,12 +90,12 @@ export function BaseFooter({
                         {/* Copyright */}
                         {showCopyright && (
                             <motion.span 
-                                className="text-[10px] sm:text-xs text-purple-400"
+                                className="text-[10px] sm:text-xs text-red-400"
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
                                 transition={{ delay: 0.4 }}
                             >
-                                © {new Date().getFullYear()} kush
+                                © {new Date().getFullYear()} Kush
                             </motion.span>
                         )}
                     </div>

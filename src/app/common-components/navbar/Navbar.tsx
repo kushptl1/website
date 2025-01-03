@@ -36,9 +36,6 @@ export function Navbar() {
     const links = [
         { href: '/about', label: 'About' },
         { href: '/blog', label: 'Blog' },
-        { href: '/learning', label: 'Learning' },
-        { href: '/notes', label: 'Notes' },
-        { href: '/references', label: 'References' }
     ]
 
     // Close menu when clicking outside

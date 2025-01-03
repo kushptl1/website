@@ -77,7 +77,7 @@ export function HeroSection() {
                             transition={{ delay: 0.6 }}
                         >
                                 <Text>
-                                    This is my portfolio website showcasing my thoughts and ideas.
+                                    This is my portfolio website showcasing my projects and thoughts.
                                 </Text>
 
                                 <Ruler color='colorless' marginTop='sm' marginBottom='none'/>
@@ -91,14 +91,6 @@ export function HeroSection() {
                                 </Text>
 
                                 <Ruler color='colorless' marginTop='sm' marginBottom='none'/>
-
-                                <Text>
-                                    I also document my weekly learnings. You can take a look at those{' '}
-                                    <Link href="/learning" className="text-red-500 font-bold hover:underline">
-                                        here
-                                    </Link>
-                                    .
-                                </Text>
                                 
                         </motion.div>
                     </motion.div>

@@ -1,4 +1,4 @@
-import { IBM_Plex_Mono, Geist } from 'next/font/google'
+import { DM_Mono, IBM_Plex_Mono, Geist } from 'next/font/google'
 
 export const monoFont = IBM_Plex_Mono({
     subsets: ['latin'],

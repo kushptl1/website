@@ -14,26 +14,18 @@ export async function generateMetadata({ params }: { params: Params }) {
     const { slug } = await params
   
     return {
-      title: `${blogPosts.find(post => post.slug === slug)?.title} | sumit.ml`,
+      title: `${blogPosts.find(post => post.slug === slug)?.title} | Kush Patel`,
       openGraph: {
-        title: `${blogPosts.find(post => post.slug === slug)?.title} | sumit.ml`,
+        title: `${blogPosts.find(post => post.slug === slug)?.title} | Kush Patel`,
         description: `${blogPosts.find(post => post.slug === slug)?.description}`,
-        images: [
-          {
-            url: `/blog/posts/${slug}/opengraph-image.png`,
-            width: 1200,
-            height: 630,
-            alt: `${blogPosts.find(post => post.slug === slug)?.description}`,
-          },
-        ],
       },
       twitter: {
         card: "summary_large_image",
-        title: `${blogPosts.find(post => post.slug === slug)?.title} | sumit.ml`,
+        title: `${blogPosts.find(post => post.slug === slug)?.title} | Kush Patel`,
         description: `${blogPosts.find(post => post.slug === slug)?.description}`,
         images: [
           {
-            url: `/blog/posts/${slug}/twitter-image.png`,
+            url: `/blog/posts/${slug}/twitter.png`,
             width: 1200,
             height: 630,
             alt: `${blogPosts.find(post => post.slug === slug)?.description}`,

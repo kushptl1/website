@@ -10,7 +10,9 @@ export function HomepageSocials() {
         <div>
             <TextHeading as="h2" weight="bold">Socials</TextHeading>
             <Text>
-                I’m always open to chat! Please feel free to hit me up at <Link href="mailto:kushp1@umbc.edu" className="text-red-500 hover:underline">kushp1@umbc.edu</Link>
+                I’m always open to chat! Please feel free to hit me up on{' '}
+                <Link href="https://www.linkedin.com/in/kusptl/" className="text-red-500 hover:underline">Linkedin</Link>
+                .
             </Text>
         </div>
 

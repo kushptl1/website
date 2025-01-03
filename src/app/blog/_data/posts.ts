@@ -8,5 +8,13 @@ export const blogPosts: BlogPost[] = [
         date: "December 25, 2024",
         readingTime: "10 min read",
         slug: "getting-started-with-machine-learning"
+    },
+    {
+        id: 2,
+        title: "My Certifications",
+        description: "Certifications: CompTIA Security+, Azure Fundamentals (AZ-900), Intro to Splunk",
+        date: "January 3, 2025",
+        readingTime: "",
+        slug: "getting-started-with-machine-learning"
     }
 ] 

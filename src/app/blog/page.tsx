@@ -7,8 +7,7 @@ import { SectionFooter } from "@/common-components/footer/SectionFooter"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: 'Blog | sumit.ml',
-    description: 'thoughts on machine learning, math, technology, and my journey',
+    title: 'Blog | Kush Patel',
 }
 
 export default function BlogListing() {
@@ -26,7 +25,7 @@ export default function BlogListing() {
                     ))}
                 </StackVertical>
             </StackVertical>
-            <SectionFooter color="purple" showToTop={false} />
+            <SectionFooter color="red" showToTop={false} />
         </BaseContainer>
     )
 }
