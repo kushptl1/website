@@ -26,7 +26,7 @@ export function BlogHeader() {
                     Blog
                 </TextHeading>
                 <Text variant="muted" size="sm">
-                    Thoughts on programming, machine learning, and technology
+                My portfolio: A collection of cyber projects, and experiences.
                 </Text>
             </div>
         </StackVertical>
